@@ -75,7 +75,7 @@ contract Safe is
          * so we create a Safe with 0 owners and threshold 1.
          * This is an unusable Safe, perfect for the singleton
          */
-        threshold = 1;
+        threshold = 0;
     }
 
     /**
